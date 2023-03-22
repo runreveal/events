@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/segmentio/events/v2"
+	"github.com/runreveal/events"
 )
 
 func TestDialFunc(t *testing.T) {

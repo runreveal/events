@@ -6,7 +6,7 @@ package text
 import (
 	"os"
 
-	"github.com/segmentio/events/v2"
+	"github.com/runreveal/events"
 )
 
 func init() {

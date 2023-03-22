@@ -3,7 +3,7 @@ package eventstest
 import (
 	"testing"
 
-	"github.com/segmentio/events/v2"
+	"github.com/runreveal/events"
 )
 
 func TestHandler(t *testing.T) {

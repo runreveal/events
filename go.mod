@@ -1,4 +1,6 @@
-module github.com/segmentio/events/v2
+module github.com/runreveal/events
+
+go 1.18
 
 require (
 	github.com/pkg/errors v0.9.1
@@ -7,5 +9,3 @@ require (
 )
 
 require github.com/segmentio/asm v1.1.3 // indirect
-
-go 1.18

@@ -5,7 +5,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/segmentio/events/v2"
+	"github.com/runreveal/events"
 )
 
 var _ events.Handler = (*Handler)(nil)

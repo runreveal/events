@@ -3,7 +3,7 @@ package httpevents
 import (
 	"net/http"
 
-	"github.com/segmentio/events/v2"
+	"github.com/runreveal/events"
 )
 
 // NewTransportWith wraps roundTripper and returns a new transport which logs

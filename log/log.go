@@ -6,9 +6,9 @@ import (
 	"log"
 	"os"
 
-	"github.com/segmentio/events/v2"
-	"github.com/segmentio/events/v2/ecslogs"
-	"github.com/segmentio/events/v2/text"
+	"github.com/runreveal/events"
+	"github.com/runreveal/events/ecslogs"
+	"github.com/runreveal/events/text"
 )
 
 // New creates a new Logger. The out variable sets the destination to which log

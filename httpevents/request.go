@@ -4,7 +4,7 @@ import (
 	"net/http"
 	"sync"
 
-	"github.com/segmentio/events/v2"
+	"github.com/runreveal/events"
 )
 
 // The request type is used to generate the log lines of http requests sent by

@@ -4,7 +4,7 @@ import (
 	"net"
 	"sync/atomic"
 
-	"github.com/segmentio/events/v2"
+	"github.com/runreveal/events"
 )
 
 // NewListener returns a wrapped version of listener which logs with the default

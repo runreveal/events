@@ -1,4 +1,4 @@
-# events [![CircleCI](https://circleci.com/gh/segmentio/events.svg?style=shield)](https://circleci.com/gh/segmentio/events) [![Go Report Card](https://goreportcard.com/badge/github.com/segmentio/events)](https://goreportcard.com/report/github.com/segmentio/events) [![GoDoc](https://godoc.org/github.com/segmentio/events?status.svg)](https://godoc.org/github.com/segmentio/events)
+# events [![Go Report Card](https://goreportcard.com/badge/github.com/segmentio/events)](https://goreportcard.com/report/github.com/segmentio/events) [![GoDoc](https://godoc.org/github.com/segmentio/events?status.svg)](https://godoc.org/github.com/segmentio/events)
 Go package for routing, formatting and publishing events produced by a program.
 
 ## Motivations
@@ -66,7 +66,7 @@ For example, this piece of code generates an event that has an argument named
 package main
 
 import (
-    "github.com/segmentio/events/v2"
+    "github.com/runreveal/events"
 )
 
 func main() {
@@ -136,8 +136,8 @@ import (
     "errors"
     "os"
 
-    "github.com/segmentio/events/v2"
-    "github.com/segmentio/events/v2/ecslogs"
+    "github.com/runreveal/events"
+    "github.com/runreveal/events/ecslogs"
 )
 
 func main() {
@@ -168,9 +168,9 @@ Here's a code example that is commonly used to configure the events package:
 package main
 
 import (
-    "github.com/segmentio/events/v2"
-    _ "github.com/segmentio/events/v2/ecslogs"
-    _ "github.com/segmentio/events/v2/text"
+    "github.com/runreveal/events"
+    _ "github.com/runreveal/events/ecslogs"
+    _ "github.com/runreveal/events/text"
 )
 
 func main() {

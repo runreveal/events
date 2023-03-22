@@ -4,18 +4,13 @@
 package text
 
 import (
-	"fmt"
 	"os"
-	"path/filepath"
 
-	"github.com/segmentio/events/v2"
+	"github.com/runreveal/events"
 )
 
 func init() {
-
-	DefaultPrefix = fmt.Sprintf("%s[%d]: ", filepath.Base(os.Args[0]), os.Getpid())
-
-	if events.IsTerminal(1) {
-		events.DefaultHandler = NewHandler(DefaultPrefix, os.Stdout)
-	}
+	handler := NewHandler("", os.Stderr)
+	handler.TimeFormat = ""
+	events.DefaultHandler = handler
 }

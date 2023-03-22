@@ -7,7 +7,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/segmentio/events/v2"
+	"github.com/runreveal/events"
 )
 
 func init() {

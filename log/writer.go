@@ -6,7 +6,7 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/segmentio/events/v2"
+	"github.com/runreveal/events"
 )
 
 // Writer is an implementation of an io.Writer which is designed to be set as

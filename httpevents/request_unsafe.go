@@ -6,7 +6,7 @@ package httpevents
 import (
 	"unsafe"
 
-	"github.com/segmentio/events/v2"
+	"github.com/runreveal/events"
 )
 
 func bytesToStringNonEmpty(b []byte) string {

@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"sync"
 
-	"github.com/segmentio/events/v2"
+	"github.com/runreveal/events"
 )
 
 // NewHandler wraps the HTTP handler and returns a new handler which logs all 4xx

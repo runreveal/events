@@ -3,7 +3,7 @@
 
 package httpevents
 
-import "github.com/segmentio/events/v2"
+import "github.com/runreveal/events"
 
 func bytesToStringNonEmpty(b []byte) string {
 	return string(b)

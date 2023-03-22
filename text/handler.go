@@ -6,7 +6,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/segmentio/events/v2"
+	"github.com/runreveal/events"
 )
 
 // DefaultTimeFormat is the default time format set on Handler.
@@ -14,8 +14,6 @@ const DefaultTimeFormat = "2006-01-02 15:04:05.000"
 
 // DefaultPrefix is used by the default handler configured when the program's
 // standard output is a terminal.
-//
-// The value is "program-name[pid]: "
 var DefaultPrefix string
 
 // Handler is an event handler which format events in a human-readable format

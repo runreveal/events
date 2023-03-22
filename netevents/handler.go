@@ -4,7 +4,7 @@ import (
 	"context"
 	"net"
 
-	"github.com/segmentio/events/v2"
+	"github.com/runreveal/events"
 )
 
 // Handler is an interface that can be implemented by types that serve network

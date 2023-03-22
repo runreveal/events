@@ -5,7 +5,7 @@ import (
 	"net"
 	"runtime"
 
-	"github.com/segmentio/events/v2"
+	"github.com/runreveal/events"
 )
 
 // DialFunc returns a wrapper for dial which logs with the default logger all

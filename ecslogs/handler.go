@@ -13,7 +13,7 @@ import (
 
 	"github.com/pkg/errors"
 	"github.com/segmentio/encoding/json"
-	"github.com/segmentio/events/v2"
+	"github.com/runreveal/events"
 )
 
 // Handler is an event handler which formats events in a ecslogs-compatible

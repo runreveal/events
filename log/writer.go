@@ -92,10 +92,6 @@ func (w *Writer) Write(b []byte) (int, error) {
 
 	s = skip(s, ' ')
 
-	if n := strings.IndexByte(s, '\n'); n >= 0 {
-		s = s[:n]
-	}
-
 	if t == (time.Time{}) {
 		t = time.Now()
 	}

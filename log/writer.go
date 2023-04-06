@@ -92,6 +92,8 @@ func (w *Writer) Write(b []byte) (int, error) {
 
 	s = skip(s, ' ')
 
+	s = strings.TrimSuffix(s, "\n")
+
 	if t == (time.Time{}) {
 		t = time.Now()
 	}
